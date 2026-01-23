@@ -44,6 +44,6 @@ class Expanse < Formula
   end
 
   test do
-    system "#{bin}/expanse", "--version"
+    system "#{bin}/expanse", "version"
   end
 end
