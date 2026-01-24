@@ -42,5 +42,5 @@ brew uninstall expanse
 ## Links
 
 - [Documentation](https://docs.expanse.org.uk)
-- [GitHub](https://github.com/expanse-labs/monorepo)
+- [GitHub](https://github.com/expanse-labs)
 - [Website](https://expanse.org.uk)
