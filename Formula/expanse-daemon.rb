@@ -38,7 +38,7 @@ class ExpanseDaemon < Formula
       The Expanse daemon has been installed.
 
       To start the daemon, use the Expanse CLI:
-        expanse install daemon
+        expanse daemon start
     EOS
   end
 
