@@ -15,10 +15,10 @@ After installing the CLI, install the daemon:
 
 ```bash
 # Native binary installation
-expanse install daemon
+expanse daemon install
 
 # Or Docker-based installation (sandboxed)
-expanse install daemon --docker
+expanse daemon install --docker
 ```
 
 ## Upgrading
