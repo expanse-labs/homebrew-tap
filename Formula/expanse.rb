@@ -4,28 +4,28 @@
 class Expanse < Formula
   desc "AI-native workflow orchestration for HPC"
   homepage "https://expanse.org.uk"
-  version "0.10.0"
+  version "0.11.0"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://releases.expanse.org.uk/cli/v0.10.0/expanse_darwin_arm64.tar.gz"
-      sha256 "4e52fa4166666e80dfb0ac8a1a7457033b1e536ffe8b94b713109e4f04ce8269"
+      url "https://releases.expanse.org.uk/cli/v0.11.0/expanse_darwin_arm64.tar.gz"
+      sha256 "f554eaa2121fbcaf50447a219e7970b4294b309efa34b7c8dfe62966a77edd6b"
     end
     on_intel do
-      url "https://releases.expanse.org.uk/cli/v0.10.0/expanse_darwin_amd64.tar.gz"
-      sha256 "c49bc55d042a378914c644e0b66648703722858a39f7652ff6a332ebac8cb011"
+      url "https://releases.expanse.org.uk/cli/v0.11.0/expanse_darwin_amd64.tar.gz"
+      sha256 "21146a0f09b05f2f2f4b771b7d67e2d028c6f1532fba13b25b234b5c0b3bec14"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://releases.expanse.org.uk/cli/v0.10.0/expanse_linux_arm64.tar.gz"
-      sha256 "0dc6aa602e7295acc688a1bc5bff80eaf4cfdabdb6ed3cfbc2a2f6dcdfb3e94c"
+      url "https://releases.expanse.org.uk/cli/v0.11.0/expanse_linux_arm64.tar.gz"
+      sha256 "5acb7fb2bfe906df69276da35723dc4830dd01461d700f19494919d0c576becb"
     end
     on_intel do
-      url "https://releases.expanse.org.uk/cli/v0.10.0/expanse_linux_amd64.tar.gz"
-      sha256 "355c1200e7c787ccc59826efb6c85c32e9146e35f1747160ada1f429771f2ef1"
+      url "https://releases.expanse.org.uk/cli/v0.11.0/expanse_linux_amd64.tar.gz"
+      sha256 "1e79dbb90b5fb192a2ca08b3c252ffde02816726fa35053aef779f3bb45205b6"
     end
   end
 
