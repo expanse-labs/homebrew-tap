@@ -4,28 +4,28 @@
 class ExpanseDaemon < Formula
   desc "Daemon component for Expanse AI-native workflow orchestration"
   homepage "https://expanse.org.uk"
-  version "0.12.0"
+  version "0.12.1"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://releases.expanse.org.uk/daemon/v0.12.0/expanse-daemon_darwin_arm64.tar.gz"
-      sha256 "5cce3ca3e2b3c4aef117e99cdd50a2b493fcfd341ed222031c23afcc7cace081"
+      url "https://releases.expanse.org.uk/daemon/v0.12.1/expanse-daemon_darwin_arm64.tar.gz"
+      sha256 "73a049d31ce197a2415ea0418f8f79c689baa5cf5a6ef1c6f3cef53fb6e494cf"
     end
     on_intel do
-      url "https://releases.expanse.org.uk/daemon/v0.12.0/expanse-daemon_darwin_amd64.tar.gz"
-      sha256 "67465548ba311fef5643b0dc2af9a296235e5fdefd01de811ca767bc77ef7fb0"
+      url "https://releases.expanse.org.uk/daemon/v0.12.1/expanse-daemon_darwin_amd64.tar.gz"
+      sha256 "c951a16b156bf3e8122128b466c684a7ff3b8dbc5065413e6484bd4ef922f9c7"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://releases.expanse.org.uk/daemon/v0.12.0/expanse-daemon_linux_arm64.tar.gz"
-      sha256 "008ca8d70249fc21b6e9c98e8b4a73a5e358561b5db6141523726e3c4a7e586d"
+      url "https://releases.expanse.org.uk/daemon/v0.12.1/expanse-daemon_linux_arm64.tar.gz"
+      sha256 "4691811932037884c9f8a82b358f1b0549cc2d1399bdc9c300a3d3a7a7137c53"
     end
     on_intel do
-      url "https://releases.expanse.org.uk/daemon/v0.12.0/expanse-daemon_linux_amd64.tar.gz"
-      sha256 "400a63733c6580a070e4b8e6dac3fb6544d319b7952745ade4f47f33b6ea2835"
+      url "https://releases.expanse.org.uk/daemon/v0.12.1/expanse-daemon_linux_amd64.tar.gz"
+      sha256 "427c3576495a9420c3e6bd475985a2414a7d6aac227857da71928f2649a617a6"
     end
   end
 
